@@ -373,6 +373,7 @@
   letter-spacing: 2px;
   transition: var(--transition);
   border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(47, 74, 52, 0.2);
 }
 
 .outline-button:hover {
@@ -927,7 +928,7 @@
   text-decoration: none;
   border-radius: 50px;
   font-weight: 600;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 6px 25px rgba(47, 74, 52, 0.45), 0 0 0 1px rgba(255,255,255,0.15);
   transition: var(--transition);
   font-size: 1rem;
 }
@@ -964,7 +965,7 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 25px rgba(47, 74, 52, 0.45), 0 0 0 1px rgba(255,255,255,0.15);
   transition: var(--transition);
   white-space: nowrap;
   display: flex;
@@ -996,6 +997,7 @@
   margin-left: auto;
   margin-right: auto;
   transition: var(--transition);
+  box-shadow: 0 6px 25px rgba(47, 74, 52, 0.45), 0 0 0 1px rgba(255,255,255,0.15);
 }
 
 .whatsapp-branch-btn:hover {
