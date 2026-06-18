@@ -1222,6 +1222,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   cursor: pointer;
+  box-shadow: 0 4px 15px rgba(47, 74, 52, 0.35);
   transition: var(--transition);
 }
 

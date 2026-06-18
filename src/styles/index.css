@@ -115,6 +115,7 @@ section {
   cursor: pointer;
   transition: var(--transition);
   border-radius: 4px;
+  box-shadow: 0 4px 15px rgba(47, 74, 52, 0.35);
 }
 
 .premium-button:hover {
