@@ -123,9 +123,6 @@ function App() {
         </div>
       </nav>
 
-      <button className="fab-button mobile-only" onClick={() => setMenuOpen(!menuOpen)}>
-        <span>{menuOpen ? '✕' : '☰'}</span>
-      </button>
       <div className={`fab-menu mobile-menu ${menuOpen ? 'active' : ''}`}>
         <button onClick={() => handleNavClick('about')}>Nosotros</button>
         <button onClick={() => handleNavClick('services')}>Servicios</button>
@@ -140,6 +137,9 @@ function App() {
         <div className="hero-logo mobile-only">
           <img src={logoImage} alt="Lush Nails Spa" />
           <span>LUSH NAILS SPA</span>
+          <button className="fab-button mobile-only" onClick={() => setMenuOpen(!menuOpen)}>
+            <span>{menuOpen ? '✕' : '☰'}</span>
+          </button>
         </div>
         <div className="hero-content animate-fade" style={{ textAlign: 'center' }}>
           <h1 style={{color: '#000000'}}>Elegancia en cada detalle</h1>
