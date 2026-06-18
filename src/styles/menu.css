@@ -98,7 +98,7 @@
 }
 
 .hero-logo.mobile-only {
-  position: absolute;
+  position: fixed;
   top: 20px;
   left: 20px;
   display: flex;
@@ -108,13 +108,13 @@
 }
 
 .hero-logo.mobile-only img {
-  height: 45px;
+  height: 65px;
   width: auto;
 }
 
 .hero-logo.mobile-only span {
   font-family: var(--font-display);
-  font-size: 1rem;
+  font-size: 1.3rem;
   letter-spacing: 3px;
   color: #000000;
   font-weight: 600;
